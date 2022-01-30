@@ -13,7 +13,7 @@ function Navbar() {
           <div className="navbar-options">
               <Link1 to="about" spy={true} smooth={true}><p>ABOUT</p></Link1>
               <Link1><p>OUR PRODUCT</p></Link1>
-              <Link1><p>OUR JOURNEY</p></Link1>
+              <Link1 to="journey" spy={true} smooth={true}><p>OUR JOURNEY</p></Link1>
               <Link1><p>TEAM</p></Link1>
               <Link1><p>BLOG</p></Link1>
               <Link1 to="contact" spy={true} smooth={true}><p>CONTACT US</p></Link1>

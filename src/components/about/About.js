@@ -31,6 +31,11 @@ function About() {
         <div className="about-desc">
           <div className="about-info">
             <h1>ABOUT EAGR</h1>
+            <div className="about-lines">
+                <div style={{height:'1px',width:'33%',backgroundColor:'var(--yellow)'}}></div>
+                <div style={{height:'1px',width:'66%',backgroundColor:'var(--white)'}}></div>
+                
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
               lobortis egestas quisque pretium, elementum semper justo,

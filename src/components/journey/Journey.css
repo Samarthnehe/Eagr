@@ -1,43 +1,43 @@
-.about{
+.journey{
     min-height: 100vh;
     height: auto;
-    background-color:var(--blue);
+    background-color:var(--black);
     position: relative;
 }
-.circle1,.circle2{
-    height:200px;width:200px;
-    background-color:rgba(11,119,79,0.5);
-    border-radius: 50%;
-    position:absolute;
-  
-
-}
-.circle3,.circle4{
+.jcircle1,.jcircle2{
     height:200px;width:200px;
     background-color:rgba(241,184,28,0.4);
     border-radius: 50%;
     position:absolute;
   
-}
-.circle3{
-    left:-160px;
-    top:50px
 
 }
-.circle4{
-    left:-160px;
-    top:90px
+.jcircle3,.jcircle4{
+    height:200px;width:200px;
+    background-color:rgba(0,78,163,0.4);
+    border-radius: 50%;
+    position:absolute;
+  
 }
-.circle1{
+.jcircle3{
+    right:-160px;
+    top:30%
+
+}
+.jcircle4{
+    right:-160px;
+    top:35%
+}
+.jcircle1{
     bottom:60px;
-    right:-120px;
+    left:-120px;
 }
-.circle2{
+.jcircle2{
     bottom: 90px;
-    right:-120px;
+    left:-120px;
 }
 
-.about-container{
+.journey-container{
     margin: 0 auto;
     width: 93%;
     display:flex;
@@ -45,7 +45,7 @@
     align-items:center;
     box-sizing: border-box;
 }
-.about-desc{
+.journey-desc{
     height: 100%;
     display: flex;
     justify-content:center;
@@ -54,37 +54,36 @@
     width:45%;
     box-sizing: border-box;
 }
-.about-desc .about-info{
+.journey-desc .journey-info{
     height:auto;
     padding-right: 18%;
 }
-.about-desc .about-info .about-lines{
-    display: flex;
-}
-.about-desc .about-info h1{
+.journey-desc .journey-info h1{
     font-size:68px;
     padding-bottom:10px;
-    border-bottom:1.5px solid white;
     color:white;
     margin-right: 15%;
 
 }
-.about-desc .about-info p{
+.journey-desc .journey-info .journey-lines{
+    display: flex
+}
+.journey-desc .journey-info p{
     color:white;
     font-family: 'Gotham-Light';
     font-size: 20px;
     padding:30px 0px;
     font-weight: 500
 }
-.about-images{
+.journey-images{
     width:55%;
     box-sizing: border-box;
     padding:100px 0px;
 }
-.about-images .pic-top{
+.journey-images .pic-top{
     display:flex
 }
-.about-images img{
-    box-shadow: 4px 4px 20px rgba(255,101,62,0.2);
+.journey-images img{
+    box-shadow: 4px 4px 20px rgba(78,43,208,0.2);
     border-radius: 20px;
 }
