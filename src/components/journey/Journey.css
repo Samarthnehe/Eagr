@@ -38,12 +38,14 @@
 }
 
 .journey-container{
-    margin: 0 auto;
+    margin: 0 3.5%;
     width: 93%;
     display:flex;
     justify-content:space-between;
     align-items:center;
     box-sizing: border-box;
+    position:absolute;
+    height:100%
 }
 .journey-desc{
     height: 100%;
