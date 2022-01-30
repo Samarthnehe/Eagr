@@ -1,0 +1,47 @@
+.landing{
+    background-image:url('../../images/bg.png');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+.landing-container{
+    margin-top:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:85vh
+}
+.landing-box{
+    width: 50%;
+    margin: 0 auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.landing-title{
+    font-size:64px;
+    margin:40px 0px 10px 0px;
+    color:white;
+    font-weight:400
+}
+.para{
+    font-size:20px;
+    color:white;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: 'Gotham-Light';
+    text-align:center;
+    padding:0px 12%
+}

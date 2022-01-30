@@ -1,0 +1,35 @@
+.navbar{
+    height: 15vh;
+    width:100vw;
+    box-sizing: border-box;
+    position:sticky;
+    top: 0;
+    left:0;
+    position: absolute;
+    z-index: 9999;
+}
+.navbar-container {
+    margin:0 auto;
+    width: 93%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 0px
+}
+.logo{
+    flex:1
+}
+.navbar-options{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.navbar a{
+    cursor: pointer;
+}
+.navbar-options a p{
+    font-size:30px;
+    color:var(--yellow);
+    font-weight: 400;
+}
