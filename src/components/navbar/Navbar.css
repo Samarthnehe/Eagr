@@ -5,8 +5,9 @@
     position:sticky;
     top: 0;
     left:0;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
+    backdrop-filter: blur(10px);
 }
 .navbar-container {
     margin:0 auto;

@@ -1,0 +1,157 @@
+.product{
+    min-height: 200vh;
+    height: auto;
+    background-color:#0B6E4F;
+    position: relative;
+}
+.pcircle1,.pcircle2{
+    height:200px;width:200px;
+    background-color:rgba(0,78,163,0.4);
+    border-radius: 50%;
+    position:absolute;
+  
+
+}
+.pcircle3,.pcircle4{
+    height:200px;width:200px;
+    background-color:rgba(241,184,28,0.4);
+    border-radius: 50%;
+    position:absolute;
+  
+}
+.pcircle3{
+    right:-160px;
+    bottom:40%
+
+}
+.pcircle4{
+    right:-160px;
+    bottom:45%
+}
+
+.pcircle1{
+    top:30px;
+    left:-120px;
+}
+.pcircle2{
+    top: 50px;
+    left:-120px;
+}
+.product-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    position: absolute;
+    height:100%;
+    width: 100vw;
+    
+}
+.carousel-body{
+    width:95vw;
+  
+}
+.list{
+    background-color:transparent;
+      box-shadow: 2px 2px 20px rgba(255,199,87,0.16);
+      height:300px;
+      margin:40px 100px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 80px;
+      
+}
+.list h1{
+    color:white;
+    padding: 3px 0px;
+    text-align: left;
+   
+}
+.list .list-desc{
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+.list .list-image{
+    width: 30%;
+    box-sizing: border-box;
+}
+.list .list-image{
+    width:200px;
+    height:200px
+}
+.list p{
+    margin:10px 0px;
+    line-height: 120%;
+}
+.list .product-lines{
+    display: flex
+}
+.list .list-desc .items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0px -10px
+}
+.list .list-desc .items .item{
+    width:fit-content;
+    padding:10px 15px;
+    background-color:var(--yellow);
+    margin:0px 10px;
+    border-radius:5px;
+    font-family: Poppins;
+    font-size:16px;
+    font-weight: 400;
+}
+.product-container{
+    margin: 0 3.5%;
+    width: 93%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+.product-desc{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:45%;
+    box-sizing: border-box;
+}
+.product-desc .product-info{
+    height:auto;
+   
+}
+.product-desc .product-info h1{
+    font-size:68px;
+    padding-bottom:10px;
+    color:white;
+    
+
+}
+.product-desc .product-info .product-lines{
+    display: flex
+}
+.product-desc .product-info p{
+    color:white;
+    font-family: 'Gotham-Light';
+    font-size: 20px;
+    padding:30px 0px;
+    font-weight: 500
+}
+.product-images{
+    width:55%;
+    box-sizing: border-box;
+    padding:100px 0px;
+    margin-right: -5%;
+}
+.product-images .pic-top{
+    display:flex
+}
+.product-images img{
+    border-radius: 20px;
+}
