@@ -36,7 +36,7 @@
 .landing-left{
     width:55%;
     box-sizing: border-box;
-    padding-right:100px
+    padding-right:10%
 }
 .landing-left h1{
     font-size:82px;
@@ -75,5 +75,6 @@
 }
 .landing-right img{
     height:100%;
-    margin:0px 10px
+    margin:0px 10px;
+    width:33%
 }
