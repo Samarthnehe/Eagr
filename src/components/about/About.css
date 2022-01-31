@@ -1,7 +1,7 @@
 .about{
     min-height: 100vh;
     height: auto;
-    background-color:var(--blue);
+    background-color:var(--white);
     position: relative;
 }
 .circle1,.circle2{
@@ -42,9 +42,14 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    box-sizing: border-box;
-    position:absolute;
+    padding:5vh 0px;
     height:100%
+}
+.about-container .vector{
+    position:absolute;
+    left: -50px;
+    top: -300px;
+    z-index: 1;
 }
 .about-desc{
     height: 100%;
@@ -61,21 +66,29 @@
 }
 .about-desc .about-info .about-lines{
     display: flex;
+    width:80%;
+    margin-bottom: 10px;
+}
+.about-desc .about-info .span{
+    background: -webkit-linear-gradient(#E65C00, #F9D423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .about-desc .about-info h1{
-    font-size:68px;
+    font-size:100px;
     padding-bottom:10px;
     border-bottom:1.5px solid white;
-    color:white;
+    color:black;
     margin-right: 15%;
 
 }
 .about-desc .about-info p{
-    color:white;
+    color:black;
     font-family: 'Gotham-Light';
-    font-size: 20px;
-    padding:30px 0px;
-    font-weight: 500
+    font-size: 18px;
+    padding:5px 0px;
+    font-weight: 600;
+    line-height:130%
 }
 .about-images{
     width:55%;
@@ -88,4 +101,16 @@
 .about-images img{
     box-shadow: 4px 4px 20px rgba(255,101,62,0.2);
     border-radius: 20px;
+}
+.about-info button{
+    width:fit-content;
+    border-radius:2px;
+    background-color:var(--yellow);
+    color:white;
+    border: none;
+    outline: none;
+    font-family:Poppins;
+    padding:15px 30px;
+    font-size: 16px;
+    margin: 10px 0px;
 }

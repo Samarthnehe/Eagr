@@ -1,8 +1,8 @@
 import React from "react";
 import "./Product.css";
-import Pic1 from "../../images/p1.png";
-import Pic2 from "../../images/p2.png";
-import Pic3 from "../../images/p3.png";
+import Pic1 from "../../images/about-1.png";
+import Pic2 from "../../images/about-2.png";
+import Pic3 from "../../images/about-3.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import WebDesign from "../../images/web-design.png";
@@ -10,23 +10,13 @@ import WebDesign from "../../images/web-design.png";
 function Product() {
   return (
     <div className="product" id="product">
-      <div className="pcircle1">.</div>
-      <div className="pcircle2">.</div>
-      <div className="pcircle3">.</div>
-      <div className="pcircle4">.</div>
+
       <div className="product-main">
         <div className="product-container">
           <div className="product-desc">
             <div className="product-info">
-              <h1>OUR product</h1>
+              <h1>OUR <span className="span">PRODUCT</span></h1>
               <div className="product-lines">
-                <div
-                  style={{
-                    height: "1px",
-                    width: "33%",
-                    backgroundColor: "var(--red)",
-                  }}
-                ></div>
                 <div
                   style={{
                     height: "1px",
@@ -38,10 +28,23 @@ function Product() {
                   style={{
                     height: "1px",
                     width: "33%",
-                    backgroundColor: "var(--blue)",
+                    backgroundColor: "var(--green)",
+                  }}
+                ></div>
+                <div
+                  style={{
+                    height: "1px",
+                    width: "33%",
+                    backgroundColor: "var(--white)",
                   }}
                 ></div>
               </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Facilisis lobortis egestas quisque pretium, elementum semper
+                justo, condimentum. Erat urna risus magnis molestie scelerisque
+                vulputate enim eget.
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Facilisis lobortis egestas quisque pretium, elementum semper
@@ -80,7 +83,7 @@ function Product() {
           </div>
         </div>
 
-        <div className="carousel-body">
+        {/* <div className="carousel-body">
           <Carousel
             autoPlay={true}
             centerMode={true}
@@ -144,7 +147,7 @@ function Product() {
                 )
             })}
           </Carousel>
-        </div>
+        </div> */}
       </div>
     </div>
   );

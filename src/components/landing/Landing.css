@@ -1,47 +1,79 @@
 .landing{
-    background-image:url('../../images/bg.png');
+    background-color:var(--white);
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
     padding-bottom: 40px;
+    z-index: 2;
     box-sizing: border-box;
 }
 .landing-container{
-    margin-top:15vh;
+    margin-top:10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height:85vh
+    width:90%;
+    height:100vh
 }
-.landing-box{
-    width: 50%;
-    margin: 0 auto;
-    height:auto;
+.landing-container .vector{
+    position:absolute;
+    left: -100px;
+    top: -40px;
+    z-index: 1;
+}
+.landing-container .vector2{
+    position:absolute;
+    right: -100px;
+    bottom: -200px;
+    z-index: 1;
+}
+.landing-left{
+    width:55%;
+    box-sizing: border-box;
+    padding-right:100px
+}
+.landing-left h1{
+    font-size:82px;
+    
+}
+.landing-left p{
+    font-size:16px;
+    line-height:180%;
+    font-weight:400;
+    font-family: Poppins;
+}
+.landing .arrow{
+    margin-top:-5vh
+}
+.landing-left button{
+    width:fit-content;
+    border-radius:2px;
+    background-color:var(--yellow);
+    color:black;
+    border: none;
+    outline: none;
+    font-family:Poppins;
+    padding:15px 30px;
+    font-size: 14px;
+    font-weight:600;
+    margin: 30px 0px;
+}
+.landing-right{
+    width:45%;
+    box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    justify-content:center;
+    align-items:center;
+    height:75%;
+    margin: 0px -10px;
 }
-.landing-title{
-    font-size:64px;
-    margin:40px 0px 10px 0px;
-    color:white;
-    font-weight:400
-}
-.para{
-    font-size:20px;
-    color:white;
-    font-weight: 400;
-    line-height: 130%;
-    font-family: 'Gotham-Light';
-    text-align:center;
-    padding:0px 12%
+.landing-right img{
+    height:100%;
+    margin:0px 10px
 }

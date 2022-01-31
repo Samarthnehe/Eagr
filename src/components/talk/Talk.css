@@ -1,0 +1,55 @@
+.talk{
+    background-color: var(--green);
+    min-height: 35vh;
+    height: auto;
+    position: relative;
+}
+.talk-container{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5em 0px;
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+}
+.talk-container .talk-header{
+    width: 30%;
+    height:100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+}
+.talk-container .talk-desc{
+    width:70%;
+    height:100%;
+    box-sizing: border-box;
+}
+.talk-container .talk-header h1{
+    font-size:28px;
+    color:white;
+    margin-bottom: 5px;
+}
+.talk-container .talk-desc button{
+    width:fit-content;
+    border-radius:2px;
+    background-color:var(--yellow);
+    color:black;
+    border: none;
+    outline: none;
+    font-family:Poppins;
+    padding:15px 30px;
+    font-size: 14px;
+    font-weight:600;
+    margin: 10px 0px;
+}
+.talk-container .talk-desc p{
+    font-size: 20px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+}

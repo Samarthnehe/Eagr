@@ -1,0 +1,62 @@
+.value{
+    min-height:50vh;
+    height:auto;
+    position: relative;
+    background-color:var(--white);
+}
+.value-container{
+    width:70%;
+    margin: 0 auto;
+    padding: 0vh 0px 10vh 0px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.value-container .head{
+    background: -webkit-linear-gradient(#E65C00, #F9D423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:48px
+}
+.value-boxes{
+    width: 100%;display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10vh 0px;
+}
+.value-container .vector{
+    position:absolute;
+    right: -50px;
+    bottom:-300px;
+    z-index: 1;
+
+}
+.value-box{
+    background-color:#FDF4DB;
+    height:auto;
+    width:30%;
+    padding:30px 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border-radius: 8px;
+    z-index: 3;
+}
+.value-box h1{
+    font-family: Poppins;
+    font-size: 18px;
+    color:black;
+    font-weight:600
+  
+}
+.value-box p{
+    font-family: Poppins;
+    font-size: 16px;
+    color:black;
+    font-weight:400;
+    margin: 10px 0px;
+    text-align:center;
+}

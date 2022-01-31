@@ -1,0 +1,6 @@
+.stats{
+    min-height:40vh;
+    background-color:var(--yellow);
+    z-index: 99;
+    position: relative;
+}
